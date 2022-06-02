@@ -1,0 +1,1554 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: 100% !important;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(26, 148, 255);
+    padding-top: 15px;
+
+}
+
+.headerr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.headerr-one{
+    width: calc(8% - 30px);
+}
+
+
+.headerr-two{
+    display: flex;
+    width: calc(92% - 100px);
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    width: calc(70% - 5px);
+}
+.left-one{
+    width: calc(85% - 2px);
+    border-right: none;
+}
+
+.left-two{
+    display: flex;
+    width: calc(15% - 2px);
+    align-items: center;
+    align-content: center;
+    background: rgb(13, 92, 182);
+}
+
+.left-one input{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+
+}
+
+.left-two span{
+    color: white;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    margin: 5px 3px 0px 15px;
+}
+
+.left-two h5{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.center{
+    display: flex;
+    width: calc(15% - 5px);
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.center-one{
+    width: calc(23% - 5px);
+}
+
+.center-two{
+    width: calc(77% - 5px);
+    font-size: 13px;
+    color: white;
+}
+
+.center-two h4{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.right{
+    display: flex;
+    width: calc(15% - 5px);
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.right-one{
+    width: calc(23% - 5px);
+}
+
+.right h5{
+    width: calc(77% - 5px);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.headerrr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.headerrr-one{
+    width: calc(8% - 10px);
+}
+
+.headerrr-two{
+    width: calc(77% - 200px);
+    display: flex;
+}
+
+.headerrr-two li{
+    font-size: 11px;
+    color: white;
+    margin-right: 12px;
+    
+}
+
+.headerrr-tree{
+    width: calc(15% - 10px);
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+.headerrr-tree1{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    align-content: center;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.headerrr-tree1 span{
+    font-size: 12px;
+    color: white;
+    margin-right: 4px;
+}
+
+.headerrr-tree1 h4{
+    color: white;
+    font-size: 12px;
+    
+}
+
+.header1{
+    background-color: #efefef;
+}
+
+.header1-one{
+    background-color: #efefef;
+    padding-bottom: 15px;
+}
+
+.spring{
+    margin-bottom: 15px;
+    padding-top: 15px
+}
+
+.spring1{
+    display: flex;
+}
+
+.spring1 li{
+    color: rgb(128, 128, 137);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.love{
+    background-color: white;
+}
+
+.love-one{
+    border-right: 1px solid rgb(221, 213, 213);
+    padding: 20px 15px 20px 15px;
+}
+
+.tuesday{
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+.tuesday div{
+    padding-left: 10px;
+}
+
+.tuesday div:first-child{
+    padding: 0;
+}
+
+.love-two{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.friday{
+    display: flex;
+}
+
+.friday h3{
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(36, 36, 36);
+}
+
+.friday div{
+    margin-left: 10px;
+}
+
+.love-two{
+    padding: 20px 15px 20px 15px;
+}
+
+.monday{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.monday h6{
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    border-right: 1px solid rgb(36, 36, 36);
+}
+
+.monday h6 span{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(13, 92, 182);
+    padding-right: 10px;
+}
+
+.monday p span{
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(13, 92, 182);
+}
+
+.monday p{
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 10px;
+}
+
+.love-two h1{
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px
+}
+
+.love-two h3{
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(120, 120, 120);
+}
+
+.good{
+    margin-bottom: 10px;
+    border: 1px solid rgb(242, 240, 254);
+    background-color: rgb(250, 250, 250);
+    padding: 15px 16px 12px;
+}
+
+.good-one{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.good-one h2{
+    font-size: 32px;
+    line-height: 40px;
+    margin-right: 8px;
+    font-weight: 500;
+    color: red;
+}
+
+.good-one1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 8px;
+    font-weight: 500;
+    color: red;
+}
+
+.good-one h6{
+    margin-top: 15px;
+    text-decoration: line-through;
+}
+
+.good-one2{
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: rgb(255, 240, 241);
+    color: rgb(255, 66, 78);
+    border: 1px solid rgb(255, 66, 78);
+    font-weight: 400;
+    margin-left: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+.good-two{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.good-two1{
+    display: flex;
+    width: calc(60% - 10px);
+    justify-content: space-between;
+    border: 1px solid rgb(198, 188, 248);
+    padding: 5px 0 0 5px;
+    background-color: rgb(242, 240, 254);
+    border-radius: 4px;
+}
+
+.good-two2{
+    width: calc(40% - 10px);
+}
+
+.good-two11{
+    width: calc(7% - 5px);
+}
+
+.good-two12{
+    width: calc(83% - 5px);
+}
+.good-two12 h3{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(64, 45, 161);
+    font-weight: 600;
+
+}
+
+.good-two13{
+    width: calc(10% - 5px);
+}
+.good-two13 span{
+    font-size: 10px;
+}
+
+.live span{
+    color: rgb(142, 142, 142);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding-right: 5px;
+}
+.live h2{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.live-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.live-one1{
+    width: calc(25% - 5px);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.live-one11{
+    width: calc(50% - 5px);
+}
+
+.live-one12{
+    width:calc(30% - 5px);
+    font-size: 15px;
+}
+
+.live-one13{
+    width: calc(20% - 5px);
+}
+
+.live-one1 h2{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.gameee{
+  margin-bottom: 15px;
+}
+
+.season{
+    margin-left: 15px;
+    width: 60px;
+}
+
+
+.vivo{
+    border: 1px solid rgb(255, 240, 241);
+    margin-bottom: 15px;
+}
+
+.flight h2{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    margin-bottom: 15px;
+}
+
+.flight-one{
+    display: flex;
+}
+
+.flight-one li{
+    margin-left: 20px;
+    border: 1px solid rgb(221, 213, 213);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.vivo1{
+    border: 1px solid rgb(255, 240, 241);
+    margin-bottom: 15px;
+}
+
+.elentra{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.elentra span{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.elentra h2{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 5px;
+}
+.elentra span:last-child{
+    color: rgb(11, 116, 229);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.toyota{
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 240, 241);
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.toyota-one{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
+
+.toyota-one span{
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 7px;
+    color: green;
+    font-weight: 600;
+}
+
+.toyota-one img{
+    height: 20px;
+}
+
+.vivo2{
+    border: 1px solid rgb(255, 240, 241);
+    margin-bottom: 15px;
+}
+
+.dream{
+    margin-bottom: 15px;
+}
+
+
+.dream h2{
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0px 0px 10px;
+    font-weight: 600;
+}
+
+.dream ul{
+    display: flex;
+}
+
+.dream li{
+    border: 1px solid rgb(255, 240, 241);
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.wave button{
+    width: 50%;
+}
+
+.bamboo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bamboo-one{
+    width: calc(20% - 5px);
+}
+
+.bamboo-one img{
+    border-radius: 30px;
+}
+
+.bamboo-two{
+    width: calc(30% - 5px);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bamboo-tree{
+    width: calc(50% - 5px);
+}
+
+.lead{
+    margin-bottom: 10px;
+}
+
+.lead-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lead-one li{
+    width: calc(30% - 5px);
+}
+
+.lead-one span{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 21px;
+}
+
+.lead-one i{
+    color: rgb(236, 236, 54);
+}
+
+.lead-one h6{
+    color: rgb(120, 120, 120);
+    font-size: 11px;
+    text-align: center;
+}
+
+.shmode{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.shmode div{
+    border: 1px solid rgb(100, 120, 238);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: rgb(13, 92, 182);
+}
+
+.bordershmode{
+    border-bottom: 1px solid rgb(255, 240, 241);
+    margin-bottom: 10px;
+}
+
+.havana{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.havana h2{
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(120, 120, 120);
+}
+
+.havana span{
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(13, 92, 182);
+}
+
+.borderhavana{
+    border-bottom: 1px solid rgb(255, 240, 241);
+    margin-bottom: 10px;
+}
+
+.audi{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.audi div{
+    width: calc(30% - -8px);
+    margin-left: 10px;
+}
+
+.audi h3{
+    text-align: center;
+}
+
+.aquaphin{
+    border: 1px solid rgb(255, 240, 241);
+    padding: 10px;
+    height: 50%;
+}
+
+.header2{
+    background-color: #efefef;
+
+}
+
+
+.header2-one {
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.summer{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.makelove {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.makelove1-one h3 {
+    font-size: 14px;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.makelove1-one span {
+    color: rgb(211, 211, 15);
+}
+
+.makelove1-two {
+    display: flex;
+    margin-top: 5px;
+}
+
+.makelove1-two span {
+    margin-left: 5px;
+    color: red;
+}
+
+.makelove1-two span:last-child {
+    border: 1px solid red;
+    background-color: rgb(240, 163, 163);
+}
+
+.makelove1-two h2 {
+    color: red;
+}
+
+.history {
+    margin-bottom: 10px;
+}
+
+.chair1 {
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    right: 80px;
+    border-radius: 20px;
+}
+
+.chair2 {
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    left: 80px;
+    border-radius: 20px;
+}
+
+.header3{
+    background-color: #efefef;
+    padding-top: 15px;
+
+}
+
+
+.header3-one{
+    background-color: #efefef;
+}
+
+.onnion{
+    margin-bottom: 15px;
+}
+
+
+.onnion1{
+    background-color: white;
+}
+
+.onnion2{
+    background-color: #efefef;
+    position: relative;
+    left: 20px;
+}
+
+.onnion1 h1{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.actinon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.actinon-one{
+    width: calc(30% - 5px);
+    background-color: rgb(202, 197, 197);
+}
+
+.actinon-two{
+    width: calc(70% - 5px);
+}
+
+.actinon-one h3{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.actinon-two h3{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.internet{
+    background-color: white;
+    margin-bottom: 15px
+}
+
+.internet1 h1{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.internet1 h2{
+    margin-bottom: 15px;
+    color: rgb(36, 36, 36);
+    line-height: 21px;
+    font-size: 15px;
+}
+
+.internet1 p{
+    margin-bottom: 15px;
+}
+
+.internet2{
+    background-color: #efefef;
+}
+
+.imposion{
+    background-color: white;
+}
+
+.imposion h1{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    
+}
+
+.imposion-two{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 400px;
+}
+
+.imposion-two span{
+    font-size: 40px;
+    color: rgb(128, 128, 137);
+    
+}
+
+.imposion-two h3{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    color: rgb(128, 128, 137);
+}
+
+.header4{
+    background-color: #efefef;
+    padding-top: 15px;
+
+}
+
+.header4-one{
+    background-color: white;
+}
+
+.madethislove {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.madelove {
+    background-color: white;
+    padding: 10px 5px;
+    border-bottom: 5px solid #efefef;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.thislove {
+    margin-bottom: 5px;
+    background-color: #efefef;
+}
+
+.thislove-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.thislove-one li {
+    width: calc(12.5% - 5px);
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+
+.thislove-one1 {
+    width: 100%;
+}
+
+.thislove-one1 div {
+    width: calc(35% - 5px);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.thislove-one1 h3 {
+    width: calc(55% - -10px);
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    padding: 10px 0;
+}
+
+
+.makelove {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.makelove1-one h3 {
+    font-size: 14px;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.makelove1-one span {
+    color: rgb(211, 211, 15);
+}
+
+.makelove1-two {
+    display: flex;
+    margin-top: 5px;
+}
+
+.makelove1-two span {
+    margin-left: 5px;
+    color: red;
+}
+
+.makelove1-two span:last-child {
+    border: 1px solid red;
+    background-color: rgb(240, 163, 163);
+}
+
+.makelove1-two h2 {
+    color: red;
+}
+
+.history {
+    margin-bottom: 10px;
+}
+
+
+.killlove {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.killlove button {
+    width: 25%;
+    border: 1px solid rgb(92, 170, 223);
+    color: rgb(26, 148, 255);
+}
+
+.subrice-one h1{
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.subrice{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.header5{
+    background-color: #efefef;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+.header5-one{
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.header6 {
+    background-color: white;
+     
+}
+
+.header6-one{
+    background-color: white;
+}
+
+.header6-one1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(221, 212, 212);
+
+}
+
+.none {
+    width: calc(20% - 30px);
+}
+
+.none li:first-child {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.none li {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.may {
+    display: flex;
+    width: 100%;
+}
+
+.may-one {
+    width: calc(50% - 50px);
+}
+
+.may-two {
+    width: calc(50% - 10px);
+}
+
+.november {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.november div:first-child {
+    padding-top: 6px;
+}
+
+.november div:first-child img {
+    border-radius: 30px;
+    height: 40px;
+}
+
+.anol {
+    padding-top: 6px;
+}
+
+.anol img {
+    height: 40px;
+}
+
+.none span {
+    font-size: 25px;
+}
+
+.november-one {
+    width: calc(25% - 5px);
+}
+
+.june {
+    display: flex;
+    width: 100%;
+}
+
+.june-one {
+    width: calc(50% - 30px);
+
+}
+
+.june-two {
+    width: calc(50% - -15px);
+    margin-left: 10px;
+}
+
+.spring {
+    border-bottom: 1px solid rgb(221, 212, 212);
+}
+
+.spring p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+
+}
+
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: black;
+  }
+
+.soling1{
+    border-radius: 30px;
+    background-color: rgb(68, 66, 66);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.soling{
+    display: none;
+}
+
+.life{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(255, 240, 241);
+    padding: 5px 0 5px 5px;
+}
+
+.life-one{
+    width: calc(10% - 5px);
+}
+
+.life-two{
+    width: calc(70% - 5px);
+}
+
+.life-two h2{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.life-two h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.life-tree{
+    width: calc(20% - 5px);
+    text-align: center;
+}
+
+.linglingg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seagame{
+    margin-bottom: 10px;
+}
+
+.makelove1{
+    width: calc(50% - 5px);
+}
+
+
+.lingling{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.makelove11{
+    width: calc(33.33% - 5px);
+}
+
+.electric{
+    margin-bottom: 10px;
+}
+.electricc{
+    margin-bottom: 10px;
+}
+
+.kinnet{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(177, 174, 174);
+    padding: 10px 0 10px 0;
+}
+
+.kinnet span{
+    margin-left: 50px;
+}
+
+.kinnett{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.kinnett span{
+    margin-left: 50px;
+}
+
+.kinnettt{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.novemdecember {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+.novem{
+    background-color: white;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    font-weight: initial;
+    border-bottom: 5px solid #efefef;
+}
+
+.december {
+    margin-bottom: 5px;
+    background-color: #efefef;
+}
+
+.december-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #efefef;
+}
+
+.december-one li {
+    width: calc(25% - 5px);
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+
+.december-one1 {
+    width: 100%;
+}
+
+.december-one1 div {
+    width: calc(35% - 5px);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.december-one1 h3 {
+    width: calc(55% - -10px);
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    padding: 10px 0;
+}
+
+.halidow{
+    margin-bottom: 20px;
+}
+
+.investion{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.investion-one{
+    background-color: white;
+    padding: 10px;
+}
+
+.investion button{
+    text-align: center;
+    padding-bottom: 10px;
+    width: 90%;
+
+}
+
+.soling , .life , .bedtom , .electric , .electricc , .sion , .novemdecember , .investion , .onnion2{
+    display: none;
+}
+
+
+@media (max-width:600px){
+
+.soling , .bedtom , .electric , .electricc , .sion , .novemdecember , .investion{
+    display: block;
+}
+
+.life{
+    display: flex;
+}
+
+.header , .spring , .love-one , .monday , .good-one2 , .live , .dream , .wave , .header2 , .header6 , .actinon , .madethislove{
+    display: none;
+}
+
+.soling{
+    width: 100%;
+}
+
+.love-two h1{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.good{
+    border: none;
+    background-color: white;
+}
+.good-one h2{
+    color: black;
+}
+
+.good-one1{
+    color: black;
+    font-weight: 600;
+}
+
+.good-two12 h3{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.flight{
+    display: flex;
+     justify-content: space-around;
+}
+
+.flight h2{
+    margin-top: 10px;
+}
+
+.vivo1{
+    border: 3px solid #e9ecef;
+}
+
+.vivo2{
+    border: 3px solid #e9ecef;
+}
+
+.bamboo-one{
+    width: calc(10% - 5px);
+}
+.bamboo-two{
+    width: calc(20% - 5px);
+}
+
+.bamboo-tree{
+    width: calc(70% - 5px);
+}
+
+.lead-one span{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.makelove1-one h3{
+    font-size: 12px;
+}
+
+.makelove1-one span{
+    font-size: 12px;
+}
+
+.audi img{
+    margin-left: 30px;
+}
+
+.imposion-two{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

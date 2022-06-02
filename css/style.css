@@ -1,0 +1,1338 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: 100% !important;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgb(26, 148, 255);
+    padding-top: 15px;
+
+}
+
+.headerr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.headerr-one {
+    width: calc(8% - 30px);
+}
+
+
+.headerr-two {
+    display: flex;
+    width: calc(92% - 100px);
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.left {
+    display: flex;
+    width: calc(70% - 5px);
+}
+
+.left-one {
+    width: calc(85% - 2px);
+    border-right: none;
+}
+
+.left-two {
+    display: flex;
+    width: calc(15% - 2px);
+    align-items: center;
+    align-content: center;
+    background: rgb(13, 92, 182);
+}
+
+.left-one input {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+
+}
+
+.left-two span {
+    color: white;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    margin: 5px 3px 0px 15px;
+}
+
+.left-two h5 {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.center {
+    display: flex;
+    width: calc(15% - 5px);
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.center-one {
+    width: calc(23% - 5px);
+}
+
+.center-two {
+    width: calc(77% - 5px);
+    font-size: 13px;
+    color: white;
+}
+
+.center-two h4 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.right {
+    display: flex;
+    width: calc(15% - 5px);
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+    margin-left: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.right-one {
+    width: calc(23% - 5px);
+}
+
+.right h5 {
+    width: calc(77% - 5px);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.headerrr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.headerrr-one {
+    width: calc(8% - 10px);
+}
+
+.headerrr-two {
+    width: calc(77% - 200px);
+    display: flex;
+}
+
+.headerrr-two li {
+    font-size: 11px;
+    color: white;
+    margin-right: 12px;
+
+}
+
+.headerrr-tree {
+    width: calc(15% - 10px);
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+
+.headerrr-tree1 {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    align-content: center;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.headerrr-tree1 span {
+    font-size: 12px;
+    color: white;
+    margin-right: 4px;
+}
+
+.headerrr-tree1 h4 {
+    color: white;
+    font-size: 12px;
+
+}
+
+.slider-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-one li {
+    font-size: 14px;
+    color: rgb(56, 56, 61);
+}
+
+.monday1 {
+    position: relative;
+    right: 100px;
+}
+
+.monday2 {
+    position: relative;
+    left: 100px;
+}
+
+.header1 {
+    position: relative;
+    top: 10px;
+}
+
+.january {
+    padding: 15px 0 15px 0;
+}
+
+.header2 {
+    position: relative;
+    top: 25px;
+    background-color: #efefef;
+    padding-bottom: 20px;
+}
+
+
+.tuyesday1 {
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    right: 45px;
+    background-color: rgb(92, 89, 89);
+}
+
+.tuyesday2 {
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 45px;
+    background-color: rgb(92, 89, 89);
+}
+
+.time {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.time-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.time-one1 {
+    display: flex;
+    width: calc(70% - 5px);
+}
+
+.time-one1 span {
+    margin: 5px 0 0 5px;
+}
+
+.eyes {
+    border: 1px solid red;
+    width: 5%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(236, 76, 76);
+}
+
+.time-one2 {
+    width: calc(30% - 5px);
+    position: relative;
+    left: 100px;
+    color: blue;
+}
+
+.think {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.think-one {
+    width: calc(25% - 5px);
+}
+
+.think-one span {
+    text-align: center;
+    color: red;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.think-two {
+    border: 1px solid red;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(240, 163, 163);
+}
+
+.think-tree {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgb(240, 163, 163);
+    border-radius: 20px;
+    background-color: rgb(240, 163, 163);
+}
+
+.think-tree1 {
+    width: calc(20% - 2px);
+    position: relative;
+    bottom: 10px;
+}
+
+.think-tree h3 {
+    width: calc(80% - 2px);
+}
+
+.chair1 {
+    border: 1px solid red;
+    background-color: #e55664;
+    position: relative;
+    right: 50px;
+    border-radius: 20px;
+}
+
+.chair2 {
+    border: 1px solid red;
+    background-color: #e55664;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+}
+
+.love {
+    margin-top: 15px;
+}
+
+.love1 {
+    padding-top: 10px;
+}
+
+
+.mylove {
+    margin-top: 15px;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.mylove1 {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.mylove2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.mylove1 li {
+    width: 48px;
+    height: 48px;
+}
+
+.mylove2 li {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.mylove2 li h3 {
+    font-size: 13px;
+    font-style: normal;
+    line-height: 1.54;
+}
+
+.inlove {
+    margin-top: 15px;
+}
+
+.inlove1 img {
+    border-radius: 15px;
+}
+
+.falllove {
+    margin-top: 15px;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.falllove-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.falllove-one1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: calc(80% - 5px);
+    justify-content: space-between;
+}
+
+.falllove-one11 {
+    width: calc(3% - 5px);
+}
+
+.falllove-one12 {
+    width: calc(97% - 5px);
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+}
+
+.falllove-one2 {
+    width: calc(20% - 5px);
+    position: relative;
+    left: 170px;
+}
+
+.falllove-one2 span {
+    color: blue;
+    line-height: 24px;
+    font-size: 15px;
+
+}
+
+.ring img {
+    border-radius: 10px;
+}
+
+.ring1 {
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    right: 78px;
+    background-color: rgb(92, 89, 89);
+}
+
+.ring2 {
+    border: 1px solid black;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 78px;
+    background-color: rgb(92, 89, 89);
+}
+
+.thenu {
+    margin-bottom: 15px;
+}
+
+.thenun div:first-child {
+    border: 1px solid rgb(221, 212, 212);
+    border-radius: 10px;
+}
+
+.thenun h4 {
+    position: absolute;
+    color: rgb(26, 148, 255);
+    bottom: 8px;
+    left: 60px;
+}
+
+.thenun1 {
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    right: 80px;
+    border-radius: 20px;
+}
+
+.thenun2 {
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    left: 80px;
+    border-radius: 20px;
+}
+
+.datelove {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.datelove-one {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    font-weight: initial;
+}
+
+.datelove-two {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.datelove-two li {
+    width: calc(10% - 60px)
+}
+
+
+.datelove-two li img {
+    border-radius: 20px;
+}
+
+.datelove-two li h3 {
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    margin: 12px 0px 16px;
+}
+
+.truelove {
+    margin-bottom: 30px;
+}
+
+.truelove img {
+    border-radius: 20px;
+}
+
+.madethislove {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.madelove {
+    background-color: white;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    font-weight: initial;
+    border-bottom: 5px solid #efefef;
+}
+
+.thislove {
+    margin-bottom: 5px;
+    background-color: #efefef;
+}
+
+.thislove-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.thislove-one li {
+    width: calc(12.5% - 5px);
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+
+.thislove-one1 {
+    width: 100%;
+}
+
+.thislove-one1 div {
+    width: calc(35% - 5px);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.thislove-one1 h3 {
+    width: calc(55% - -10px);
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    padding: 10px 0;
+}
+
+.makelove {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.makelove1-one h3 {
+    font-size: 14px;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.makelove1-one span {
+    color: rgb(211, 211, 15);
+}
+
+.makelove1-two {
+    display: flex;
+    margin-top: 5px;
+}
+
+.makelove1-two span {
+    margin-left: 5px;
+    color: red;
+}
+
+.makelove1-two span:last-child {
+    border: 1px solid red;
+    background-color: rgb(240, 163, 163);
+}
+
+.makelove1-two h2 {
+    color: red;
+}
+
+.history {
+    margin-bottom: 10px;
+}
+
+
+.killlove {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.killlove button {
+    width: 25%;
+    border: 1px solid rgb(92, 170, 223);
+    color: rgb(26, 148, 255);
+}
+
+.header3 {
+    position: relative;
+    top: 40px;
+}
+
+.header3-one1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(221, 212, 212);
+
+}
+
+.none {
+    width: calc(20% - 30px);
+}
+
+.none li:first-child {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.none li {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.may {
+    display: flex;
+    width: 100%;
+}
+
+.may-one {
+    width: calc(50% - 50px);
+}
+
+.may-two {
+    width: calc(50% - 10px);
+}
+
+.november {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.november div:first-child {
+    padding-top: 6px;
+}
+
+.november div:first-child img {
+    border-radius: 30px;
+    height: 40px;
+}
+
+.anol {
+    padding-top: 6px;
+}
+
+.anol img {
+    height: 40px;
+}
+
+.none span {
+    font-size: 25px;
+}
+
+.november-one {
+    width: calc(25% - 5px);
+}
+
+.june {
+    display: flex;
+    width: 100%;
+}
+
+.june-one {
+    width: calc(50% - 30px);
+
+}
+
+.june-two {
+    width: calc(50% - -15px);
+    margin-left: 10px;
+}
+
+.spring {
+    border-bottom: 1px solid rgb(221, 212, 212);
+}
+
+.spring p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+
+}
+
+.summer {
+    border-bottom: 1px solid rgb(221, 212, 212);
+}
+
+.summer h1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.summer h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: rgb(128, 128, 137);
+}
+
+.summer p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.athur h1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+.longtime {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.longtime-one {
+    width: calc(20% - 5px);
+}
+
+.longtime-one li h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(128, 128, 137);
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.longtime-one li p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 12px;
+}
+
+.suzuki {
+    padding: 5px 0 5px 0;
+    background-color: darkmagenta;
+}
+
+
+.suzukii {
+    display: flex;
+    background-color: darkmagenta;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.suzuki-one {
+    width: calc(25% - 50px);
+}
+
+.suzuki-two {
+    width: calc(50% - 200px);
+}
+
+.suzuki-tree {
+    width: calc(25% - 50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.suzuki-tree span {
+    width: calc(50% - 10px);
+    font-size: 27px;
+    color: white;
+}
+
+.suzuki-tree div {
+    width: calc(50% - 10px);
+}
+
+.yamaha {
+    padding: 5px 0 5px 0;
+    background-color: darkmagenta;
+}
+
+.yamahaa {
+    background-color: darkmagenta;
+}
+
+.yamaha-one {
+    background-color: white;
+    padding-left: 10px;
+}
+
+.yamaha-one input {
+    border: none;
+    padding: 5px;
+}
+
+.english {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.english-one {
+    width: calc(15% - 5px);
+}
+
+.english-two {
+    width: calc(70% - 5px);
+}
+
+.english-tree {
+    width: calc(15% - 5px);
+}
+
+.vegtable {
+    background: white;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.frend {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.frend-one {
+    width: calc(50% - 10px);
+    background-color: white;
+}
+
+.frend-one img {
+    height: 230px;
+}
+
+.frend-one h2 {
+    text-align: center;
+}
+
+.frend-two {
+    width: calc(50% - 10px);
+    background-color: white;
+}
+
+.frend-two img {
+    height: 230px;
+}
+
+.frend-two h2 {
+    text-align: center;
+}
+
+.coolmay-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+.coolmay-one li {
+    width: calc(20% - 10px);
+    margin-bottom: 10px;
+}
+
+.coolmay-one li h3 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.novemdecemberrr{
+    background-color: white;
+}
+
+.march{
+    margin-bottom: 10px;
+}
+
+.novemdecember {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #efefef;
+    padding: 10px 0 10px 0;
+}
+
+
+.novem{
+    background-color: white;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    font-weight: initial;
+    border-bottom: 5px solid #efefef;
+}
+
+.december {
+    margin-bottom: 5px;
+    background-color: #efefef;
+}
+
+.december-one {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #efefef;
+}
+
+.december-one li {
+    width: calc(25% - 5px);
+    background-color: white;
+    padding-bottom: 5px;
+
+}
+
+.december-one1 {
+    width: 100%;
+}
+
+.december-one1 div {
+    width: calc(35% - 5px);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.december-one1 h3 {
+    width: calc(55% - -10px);
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    padding: 10px 0;
+}
+
+.onlove{
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    margin-bottom: 20px
+}
+
+.onlove1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.onlove11{
+    width: calc(50% - 10px);
+}
+
+.onlove11-one h3{
+    font-size: 14px;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.onlove11-one span{
+    color: rgb(211, 211, 15);
+}
+
+.onlove11-two{
+    display: flex;
+    margin-top: 5px;
+}
+
+.onlove11-two span{
+    margin-left: 5px;
+    color: red;
+}
+
+.onlove11-two span:last-child{
+    border: 1px solid red;
+    background-color: rgb(240, 163, 163);
+}
+
+.onlove11-two h2 {
+    color: red;
+}
+
+
+.killlove {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.killlove button {
+    width: 25%;
+    border: 1px solid rgb(92, 170, 223);
+    color: rgb(26, 148, 255);
+}
+
+.highlandlovee{
+    bottom: 0;
+    position: fixed;
+    width: 80%;
+    background: white;
+    padding-top: 5px;
+}
+
+.highlandlove{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+    
+.highlandlove-one{
+   text-align: center;
+}
+
+.season{
+    margin-bottom: 13px;
+}
+
+
+
+.suzuki,
+.yamaha,
+.english,
+.vegtable,
+.time-one3,
+.bow,
+.frend,
+.coolmay,
+.novemdecember , .onlove , .highlandlovee{
+    display: none;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .suzuki,
+    .yamaha,
+    .vegtable,
+    .time-one3,
+    .bow,
+    .coolmay,
+    .novemdecember , .onlove , .highlandlovee{
+        display: block;
+    }
+
+    .header,
+    .header1,
+    .tuyesday3,
+    .tuyesday1,
+    .tuyesday2,
+    .time-one2,
+    .time-one1 span,
+    .chair1,
+    .chair2,
+    .oclock,
+    .love,
+    .mylove,
+    .inlove,
+    .melon div:last-child,
+    .thenun,
+    .datelove-two,
+    .truelove,
+    .madethislove,
+    .makelove , .header3 , .falllove-one2 , .ring2 , .thenun2{
+        display: none;
+    }
+
+    .english,
+    .frend {
+        display: flex;
+    }
+
+    .suzukii,
+    .yamahaa,
+    .englis,
+    .time-one,
+    .frend {
+        width: 100%;
+    }
+
+    .header2 {
+        top: 0;
+    }
+
+    .january {
+        background-color: darkmagenta;
+        padding: 15px 0 10px 0;
+    }
+
+    .header2-one {
+        background-color: darkmagenta;
+    }
+
+    .mylove2 li {
+        top: 0;
+        left: 0;
+    }
+
+    .think-one span {
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    .bow {
+        margin-bottom: 10px;
+    }
+
+    .header2 {
+        padding-bottom: 1px;
+        margin-bottom: 5px;
+        background-color: darkmagenta;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
